@@ -1,0 +1,10 @@
+<!--
+    Input:
+        hardware/lineage/interfaces/health/aidl/default/vendor.lineage.health-service.default.xml
+-->
+<manifest version="7.0" type="device">
+    <hal format="aidl">
+        <name>vendor.lineage.health</name>
+        <fqname>IChargingControl/default</fqname>
+    </hal>
+</manifest>

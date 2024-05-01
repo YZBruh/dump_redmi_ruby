@@ -1,0 +1,48 @@
+====================
+     04-11-2024
+====================
+
+   * art
+f6d02cf544 Revert "Remove strip.keep_symbols from libart defaults"
+
+   * frameworks/av
+5ce036025d libaudiohal: only call getAudioPort if it is supported.
+d55ffb3164 AudioStreamOut: Align with AudioStreamIn
+15c70d0d67 RecordThread: Fix sp<> release with mutex held
+e4843118a8 fix send null static meta to VENC when HDR Editing
+296123e1ea Handle video track with invalid WxH to avoid mediaserver crash
+e932e6820a Fix memory leak due to un-released gralloc buffers
+6d2789b2e2 AudioPolicyManager: take mixes into account to apply volume
+353b039912 WA: prevent matching / exclude criteria when no uid
+02d99a36b0 Allow registering effects on global output mix
+fe5921fa55 audio: optimize variable assignment method to reduce resource consumption
+4ef80e4211 Modify the calculation method of the volume DB value.
+9147847cee AudioFlinger: device effect not added to HAL
+1a387c87a4 AudioTrack: Fix offload blocking in AudioTrack::write
+e0f1bdd57f Clear entire chain buffer to avoid stale data
+66c81e848b libaudiohal: Publish AUX type in proxy effects
+ef26371a89 audioflinger: Call resetVolume before enabling effect
+0a816d1a36 Keep track of music effect thread when primary output is unavailable
+a01dbd2119 Add reference count to BundledEffectContext when create effect.
+a3f7fe411d fix crash of create global effect
+
+   * packages/modules/Bluetooth
+a120c24750 fix use-after-free for sink/source metadata
+1e25cb2fb8 DNM: Mass revert of BT breaking changes
+
+   * vendor/MatrixxOTA
+4525279 Merge pull request #87 from kssrao13882/14.0
+a81cfe7 marble: Changelogs for Matrixx v10.4.1
+844cf4d MatrixxOTA: fix typo
+71389e0 Matrixx: Update new IDs and push OTA [BOT]
+8e26bb7 bladerunner: Update maintainer name
+12e7a6c Fixing vili
+4337c30 Merge pull request #86 from Jrcable1/14.0
+d9b5ceb Merge branch 'Matrixx-Devices:14.0' into 14.0
+d896ecf Merge pull request #84 from thepriyanshujangid/14.0
+8598b38 Update gta4xlwifi.md
+6e68a16 gta4xlwifi V10.4.1 Update
+
+   * vendor/gapps
+54f8e09 gapps: Add WebView and TrichromeLibrary
+

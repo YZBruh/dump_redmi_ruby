@@ -1,0 +1,13 @@
+dalvik.vm.systemservercompilerfilter=speed-profile
+ro.com.android.mobiledata=false
+ro.config.alarm_alert=Hassium.ogg
+ro.config.notification_sound=Argon.ogg
+ro.config.ringtone=Orion.ogg
+ro.dalvik.vm.enable_uffd_gc=true
+ro.input.video_enabled=false
+ro.product.ab_ota_partitions=audio_dsp,boot,cam_vpu1,cam_vpu2,cam_vpu3,dpm,dtbo,gz,lk,logo,mcupm,md1img,pi_img,preloader,product,scp,spmfw,sspm,system,system_ext,tee,vbmeta,vbmeta_system,vbmeta_vendor,vendor
+ro.product.build.16k_page.enabled=false
+ro.product.cpu.pagesize.max=4096
+ro.support_one_handed_mode=true
+setupwizard.feature.day_night_mode_enabled=true
+setupwizard.theme=glif_v4
